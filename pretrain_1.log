@@ -1,0 +1,7 @@
+nohup: ignoring input
+模型参数量为：34742784
+Traceback (most recent call last):
+  File "/data_nvme1/bjtu/project/nano-LLM/pretrain_1.py", line 322, in <module>
+    wandb.init(project="nanoLLM", name="run-with-lr-2e-4-bs-1024")
+    ^^^^^
+NameError: name 'wandb' is not defined

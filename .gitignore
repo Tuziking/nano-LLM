@@ -1,0 +1,9 @@
+model/
+dataset/
+checkpoints/
+sft/
+save/
+saves/
+wandb/
+__pycache__/
+results2048/
