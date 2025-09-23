@@ -26,4 +26,19 @@ $$
 
 ![alt text](img/Multi-Head%20Attention.png)
 
+## 目录文件
+- LLM相关
+    - pretrain.py: 预训练脚本，用于预训练LLM
+    - sft_train.py: 微调脚本，训练LLM，主要是训练对话风格
+    - moe_train.py: MOE模型的训练脚本
+    - config.py: 配置文件，包含模型参数和训练参数
+    - inference.py: 推理脚本，用于生成文本
+- MMLM相关
+    - multi_mode_pretrain.py: 多模态预训练脚本
+    - multi_mode_sft.py: 多模态sft脚本
+    - gradio_mmlm.py: 多模态gradio界面
+- 数据处理相关
+    - dataset.py: 数据集类定义
+    - train_tokenizer.py: 分词器训练
+
 
